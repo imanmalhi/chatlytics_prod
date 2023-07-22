@@ -11,8 +11,7 @@ const LoginDialog = ({ show, dialogProps, onConfirm }) => {
     const usernameInput = {
         label: 'Username',
         name: 'username',
-        type: 'string',
-        placeholder: 'john doe'
+        type: 'string'
     }
     const passwordInput = {
         label: 'Password',
